@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.project.css">
+</head>
+<body>
+    <div class="red_line">
+        <div class="space">
+            <button id="main_раge" class="button1">Головна</button>
+            <button id="second_раge" class="button3">Ігрові хроніки</button>
+            <div class="btn_corner">
+                <div class="menu_btn" id="btn_topic">
+                    <div class="button_line">
+                        <div class="line" ></div>
+                        <div class="line" ></div>
+                        <div class="line"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="border_topic" id="border">
+                <div class="btn_close" id="close_border_topic">
+                    <div class="c">
+                        Тема
+                    </div>
+                    <div class="c1">
+                        <img class="button_close" src="img/icons8-крестик-48.png" alt="">
+                    </div>
+                </div>
+                <div class="topic">
+                    <a href="https://stopgame.ru/newsdata/60962/baek_pribyvaet_v_bagdad_vyshel_patch_s_novoy_igroy_dlya_ac_mirage">Баек прибывает в Багдад — вышел патч с «Новой игрой +» для AC Mirage</a><br>
+                    <div class="text">
+                        <a href="https://stopgame.ru/newsdata/60961/e3_oficialno_mertva">E3 официально мертва</a>
+                    </div>
+                    <div class="text">
+                        <a href="https://innovations.kh.ua/quiz/advanced/sss_imip/lesson/inde.html">Пройти тест</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div class="cont_cont" id="main_1">
+        <div class="news_page">
+            <div class="space_btn1_left">
+                <button id="back" class="button2">Минула сторінка</button>
+            </div>
+            <div class="space_btn2_right">
+                <button id="next" class="button2">Наступна сторінка</button>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="cont" id="main">
+        <div class="square_main_all">
+            <div class="center1">
+                <p id="dynamic10"></p>
+            </div>
+            <div class="center1">
+                <h2 id="dynamic1" ></h2>
+            </div>
+            <div class="center1">
+                <div class="square2">
+                    <img src="" alt="foto" id="dynamic_img">
+                </div>
+            </div>
+            <div class="center1">
+                <h2 id="dynamic2"></h2>
+            </div>
+            <div class="center1">
+                <p id="dynamic3"></p>
+            </div>
+            <div class="center1">
+                <div class="square1">
+                    <img src="" alt="foto" id="dynamic_img2">
+                </div>
+            </div>
+            <div class="hidden" id="first_hid">
+                <div class="center1">
+                    <h2 id="dynamic4"></h2>
+                </div>
+                <div class="cente1r">
+                    <p id="dynamic5"></p>
+                </div>
+                <div class="center1">
+                    <div class="square1">
+                        <img src="" alt="foto" id="dynamic_img3">
+                    </div>
+                </div>
+            </div>
+            <div class="hidden" id="second_hid">
+                <div class="center1">
+                    <h2 id="dynamic6"></h2>
+                </div>
+                <div class="center1">
+                    <p id="dynamic7"></p>
+                </div>
+                <div class="center1">
+                    <div class="square1">
+                        <img src="" alt="foto" id="dynamic_img4">
+                    </div>
+                </div>
+            </div>
+            <div class="hidden" id="third_hid">
+                <div class="center1">
+                    <h2 id="dynamic8"></h2>
+                </div>
+                
+                <div class="center1">
+                    <p id="dynamic9"></p>
+                </div>
+                <div class="center1">
+                    <div class="square1">
+                        <img src="" alt="foto" id="dynamic_img5">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="cont2" id="second">
+        <div class="center1">
+            <div class="margin">
+                <h2>Ігрові події</h2>
+            </div>
+        </div>
+        <div class="center1">
+            <div class="square">
+                <div class="content">
+                    <button class="myButton" id="button_data">Дивитися</button>
+                    <img src="img/The-Game-Awards.jpeg" alt="" id="foto_img">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="red_line_reverse"></div>
+    <script>
+        var a = 0;
+        let matrix = [
+            ["22 ноября, 20:25", "Cьогодниі вночі Rockstar показали перший трейлер GTA VI", "img/gta-6.jpeg", "Свято зіпсовано", "Вихід першого трейлера GTA 6 був затьмарений зливом — ролик у поганій якості та з накладеним закликом «купувати біткоїн» раптово з'явився у твіттері. Rockstar довелося терміново перегравати плани та випускати офіційну версію трейлера за багато годин до заздалегідь призначеного часу. Але так чи інакше ми побачили 91 секунду GTA 6. Що про неї можна сказати?", "img/gta-6-ly.png",
+            "Бонні та Клайд", "Іноді Rockstar «скупіють» — так, у перших трейлерах GTA 5 і Red Dead Redemption 2 уваги на протагоністах не акцентували. проблеми змушують її об'єднатися із Джейсоном, другим протагоністом гри. Про самого Джейсона сказати можна поменше - він водить автомобіль, погоджується повірити Люсії і разом з нею розмахує пістолетом під час чогось підозріло схожого на пограбування. Парочка протагоністів відразу навіює спогади про божевільну бандитку Каталіну з GTA 3 та GTA: San Andreas, з якою доводилося працювати Сі Джею. Втім, найімовірніше Люсія буде більш врівноваженою — поки що чекати божевілля в дусі Тревора Філліпса причин немає. Зате є причини чекати на історію в дусі Бонні та Клайда, кримінально-любовного дуету, який закінчив свою кар'єру під кулями поліцейських, — трейлер явно натякає на близькі стосунки між Джейсоном і Люсією.", "img/bonni.jpeg", "Вайс-Сіті, штат Леонідія", "З офіційного прес-релізу стало відомо, що події гри розгортатимуться не лише в тому самому Місті пороку, а й на території цілого вигаданого штату під назвою Леонідія. Тож цього разу чутки виявилися вірними, і гравцям дістанеться справді велика карта, на якій будуть не лише ліси та річки, а й болота з алігаторами. Втім, останні, як ми дізналися, можуть заповзти й усередину приміщення. Але й сам Вайс-Сіті нудним назвати не вдасться. Розробники постаралися показати вигаданий Майямі у всій красі - від переповнених пляжів до запорошених передмість, від нічних клубів і шикарних яхт до в'язниць і дешевих магазинів. Але головне все це не виглядає статичною декорацією. У повітрі літають вертольоти та птахи, по воді плавають кораблі та катери, перехожі, як їм і належить, займаються власними справами... Якщо у грі все виглядатиме так само правдоподібно, як у заскриптованих для трейлера сценах, то нас чекає по-справжньому живий світ. Геймери розглянули, що всередині багатьох будинків є інтер'єри, а вечорами мешканці виходять на балкони. Якщо це не частина заздалегідь заготовлених кат-сцен, то витоку про те, що в 70% приміщень вийде зайти, можуть виявитися правдою.", "img/vice-city.jpg", "Соціальні мережі", "Схоже, важливу роль у грі відіграватимуть медіа – цілий сегмент трейлера стилізований під відео з TikTok, з коментарями та емодзі. Нічого дивного в цьому немає — GTA завжди прагнула максимально використовувати сучасні тренди, та й самі соцмережі з'явилися ще аж у GTA 4. Що цікаво — зустрічається в ролику й інша стилізація під записи камер відеоспостереження та нагрудних камер поліції. В останньому випадку гра починає нагадувати реалістичні шутери на Unreal Engine 5 на зразок Bodycam.", "img/media.jpeg"],
+            ["5 декабря, 09:00", "Найкрасивіші ігри в історії: від Cyberpunk 2077 до The Witcher 3", "img/ceberpank-2.jpeg", "Cyberpunk 2077", "Незважаючи на всі старання CD Projekt RED, Cyberpunk 2077 запам'ятається своїм скандальним релізом, тонними багами на старті та видаленням з цифрового магазину PlayStation. Проте вже тоді було зрозуміло, що полякам вийшла шикарна з погляду візуального стилю гра. Кожен елемент навколишнього світу виконаний на найвищому рівні, як рендеринг осіб персонажів і побудова міста. Найт-Сіті настільки вражає своїм дизайном та виглядом, що навіть не хочеться користуватися швидким переміщенням, щоб довше насолоджуватися його неоновою красою. А після недавнього виходу Phantom Liberty остаточно розумієш, для чого потрібні некстген, рейтрейсинг та трасування променів.", "img/new_2077.jpg", "Red Dead Redemption 2", "Ніхто не посперечається із твердженням, що GTA 5 – це епохальна гра. Проте чисто технологічно Red Dead Redemption 2 вийшла набагато пропрацьованішою, що позначилося не тільки на геймплей, а й на графічній складовій. Навіть через п'ять років простори Дикого Заходу виглядають так само чудово, як і в день релізу. Rockstar вийшов неймовірно багатий і насичений відкритий світ, де кожен елемент оточення виконаний на п'ять з плюсом. Тут однаково вражають і безкраї рівнини, і брудні салуни на брудних вуличках невеликих поселень, і сповнені живністю ліси, і засніжені гори. Тому тут можна сміливо забути про завдання та місії, а натомість осідлати коня та вирушити куди очі дивляться.", "img/rdr.jpeg", "Ghost of Tsushima", "Можна сміливо стверджувати, що під час розробки Ghost of Tsushima команда Sucker Punch вичавила максимум із PS4. Адже у студії вийшло дуже стильне та самобутнє творіння у сеттингу феодальної Японії, яка відчувається як дуже дорога екранізація на кшталт Акіро Куросави. ", "img/Ghost of Tsushima.jpeg","The Witcher 3", "«Відьмак 3» як гарне вино, що з роками стає лише кращим. Через вісім років після релізу «Дика Полювання» все ще залишається однією з найкрасивіших ігор в історії. Місцеві пейзажі зачаровують та зачаровують, замки та міста вражають величністю, монстри лякають, як уперше, а броня та зброя дивують кількістю деталей. Подібний ефект створюється широкою палітрою фарб, якою намальований цей водночас жорстокий і привабливий світ. Тому людей так і тягне повернутися на суворі острови Скеллізі та сонячні поля Туссента, на жваві вулиці Новіграда та небезпечні багна Велена, навіть після сотні награних годин. А некстген-версія, що вийшла відносно недавно, підтягнула візуальну складову проекту на новий рівень і додала трасування променів, що зробило його ще красивішим і різноманітнішим.", "img/witcher.jpeg"]
+    ]               
+        close_border_topic = document.getElementById("close_border_topic")
+        border = document.getElementById("border")
+        btn_topic = document.getElementById("btn_topic")
+        foto_img = document.getElementById("foto_img")
+        button_data = document.getElementById("button_data")
+        button_back = document.getElementById("back")
+        button_next = document.getElementById("next")
+        button_main = document.getElementById("main_раge")
+        button_second = document.getElementById("second_раge")
+        dynamic1 = document.getElementById("dynamic1")
+        dynamic2 = document.getElementById("dynamic2")
+        dynamic3 = document.getElementById("dynamic3")
+        dynamic4 = document.getElementById("dynamic4")
+        dynamic5 = document.getElementById("dynamic5")
+        dynamic6 = document.getElementById("dynamic6")
+        dynamic7 = document.getElementById("dynamic7")
+        dynamic8 = document.getElementById("dynamic8")
+        dynamic9 = document.getElementById("dynamic9")
+        dynamic10 = document.getElementById("dynamic10")
+        dynamic_img = document.getElementById("dynamic_img")
+        dynamic_img2 = document.getElementById("dynamic_img2")
+        dynamic_img3 = document.getElementById("dynamic_img3")
+        dynamic_img4 = document.getElementById("dynamic_img4")
+        dynamic_img5 = document.getElementById("dynamic_img5")
+        main = document.getElementById("main")
+        main_1 = document.getElementById("main_1")
+        second = document.getElementById("second")
+        first_hid = document.getElementById("first_hid")
+        second_hid = document.getElementById("second_hid")
+        third_hid = document.getElementById("third_hid")
+
+        close_border_topic.addEventListener("click", close)
+        btn_topic.addEventListener("click", fnc6)
+        button_main.addEventListener("click", fnc1)
+        button_second.addEventListener("click", fnc2)
+        button_back.addEventListener("click", fnc3)
+        button_next.addEventListener("click", fnc4)
+        button_data.addEventListener("click", fnc5)
+
+
+        second.classList.add("hidden")
+
+        border.classList.add("hidden");
+
+        function fnc1(){
+            main.classList.remove("hidden")
+            main_1.classList.remove("hidden")
+            second.classList.add("hidden")
+        }
+
+        function fnc2(){
+            console.log("ok")
+            main.classList.add("hidden")
+            main_1.classList.add("hidden")
+            second.classList.remove("hidden")
+        }
+
+        function fnc3(){
+            console.log("okok")
+            if (a != 0){
+                a -= 1
+                first_hid.classList.add("hidden");
+                second_hid.classList.add("hidden");
+                third_hid.classList.add("hidden");
+                console.log(matrix[a])
+                render(a);
+            }
+        }
+
+        function fnc4(){
+            console.log("win")
+            console.log(matrix[1])
+            if (a < 1)
+                a += 1
+            first_hid.classList.add("hidden");
+            second_hid.classList.add("hidden");
+            third_hid.classList.add("hidden");
+            console.log( matrix[a][0])
+            render(a);
+        }
+
+        function fnc5(){
+            window.location.href = "https://www.youtube.com/watch?v=Zu2z5M4gmno"
+        }
+        
+        function fnc6(){
+            console.log("ok")
+            border.classList.remove("hidden");
+        }
+
+        function close(){
+            border.classList.add("hidden");
+        }
+
+        function render(n){
+            dynamic10.innerHTML = matrix[n][0];
+            dynamic1.innerHTML = matrix[n][1];
+            dynamic_img.src = matrix[n][2];
+            dynamic2.innerHTML = matrix[n][3];
+            dynamic3.innerHTML = matrix[n][4];
+            dynamic_img2.src =  matrix[n][5];
+            dynamic4.innerHTML = matrix[n][6];
+            dynamic5.innerHTML = matrix[n][7];
+            dynamic_img3.src =  matrix[n][8];
+            dynamic6.innerHTML = matrix[n][9];
+            dynamic7.innerHTML = matrix[n][10];
+            dynamic_img4.src =  matrix[n][11];
+            dynamic8.innerHTML = matrix[n][12];
+            dynamic9.innerHTML = matrix[n][13];
+            dynamic_img5.src =  matrix[n][14];
+            first_hid.classList.remove("hidden");
+            second_hid.classList.remove("hidden");
+            third_hid.classList.remove("hidden");
+            console.log(matrix[n])
+            console.log(n + "1")
+        }
+        render(a);
+
+    </script>
+</body>
+</html>
